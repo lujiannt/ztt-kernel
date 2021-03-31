@@ -1,0 +1,11 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ztl.roses.core.config.AopAutoConfiguration,\
+com.ztl.roses.core.config.RedisAutoConfiguration,\
+com.ztl.roses.core.config.FastjsonAutoConfiguration,\
+com.ztl.roses.core.config.MybatisDataSourceAutoConfiguration,\
+com.ztl.roses.core.config.PropertiesAutoConfiguration,\
+com.ztl.roses.core.config.UtilAutoConfiguration,\
+com.ztl.roses.core.config.WebAutoConfiguration,\
+com.ztl.roses.core.config.DbInitializerAutoConfiguration,\
+com.ztl.roses.core.config.MybatisPluginAutoConfiguration
